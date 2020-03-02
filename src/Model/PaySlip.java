@@ -3,6 +3,7 @@ package Model;
 public class PaySlip {
     private String name;
     private String payPeriod;
+    private double grossSalary;
     private long incomeTax;
     private long netIncome;
     private long superAmount;
@@ -23,27 +24,21 @@ public class PaySlip {
         return netIncome;
     }
 
-    @Override
-    public String toString() {
-        return "PaySlip{" +
-                "name='" + name + '\'' +
-                ", payPeriod='" + payPeriod + '\'' +
-                ", incomeTax=" + incomeTax +
-                ", netIncome=" + netIncome +
-                ", superAmount=" + superAmount +
-                '}';
+    public double getGrossSalary() {
+        return grossSalary;
     }
 
     public long getSuperAmount() {
         return superAmount;
     }
 
-    public PaySlip(String name, String payPeriod, long incomeTax, long netIncome, long superAmount) {
+    public PaySlip(String name, String payPeriod, double grossSalary, long incomeTax, long netIncome, long superAmount) {
         this.name = name;
         this.payPeriod = payPeriod;
         this.incomeTax = incomeTax;
         this.netIncome = netIncome;
         this.superAmount = superAmount;
+        this.grossSalary = grossSalary;
     }
 
 }

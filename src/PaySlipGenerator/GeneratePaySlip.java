@@ -3,7 +3,7 @@ package PaySlipGenerator;
 import Model.PaySlip;
 import Model.UserPayDetails;
 
-public class GeneratePaySlip {
+public class GeneratePaySlip implements PaySlipGeneration {
 
     public PaySlip generatePaySlip(UserPayDetails userPayDetails) {
 
@@ -13,8 +13,9 @@ public class GeneratePaySlip {
         long superAmount = calculateSuper(userPayDetails,salaryPerMonth);
         long incomeTax = calculateIncomeTax(userPayDetails);
         long netIncome = Math.round(salaryPerMonth - incomeTax);
+        long grossSalary = Math.round(salaryPerMonth);
 
-        return new PaySlip(name,payPeriod,incomeTax,netIncome,superAmount);
+        return new PaySlip(name,payPeriod,grossSalary,incomeTax,netIncome,superAmount);
     }
 
     private long calculateSuper(UserPayDetails userPayDetails, double salaryPerMonth) {
@@ -27,22 +28,22 @@ public class GeneratePaySlip {
     private long calculateIncomeTax(UserPayDetails userPayDetails) {
 
         double salary = userPayDetails.getSalary();
-        double tax = 0;
+        double tax;
 
         if (salary > 18200 && salary <= 37000) {
             tax = ((salary - 18200) * 0.19) / 12;
         }
         else if (salary >= 37001 && salary <= 87000) {
 
-            tax += (3572 + (salary - 37000) * 0.325) / 12;
+            tax = (3572 + (salary - 37000) * 0.325) / 12;
         }
         else if (salary >= 87001 && salary < 180000) {
-            tax += (19822 + (salary - 87000) * 0.37) / 12;
+            tax = (19822 + (salary - 87000) * 0.37) / 12;
         }
         else if (salary >= 180000) {
-            tax += (54232 + (salary - 180000) * 0.45) / 12;
+            tax = (54232 + (salary - 180000) * 0.45) / 12;
         } else {
-            tax += 0;
+            tax = 0;
         }
 
         return Math.round(tax);
