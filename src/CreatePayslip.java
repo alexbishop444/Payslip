@@ -12,6 +12,6 @@ public class CreatePayslip {
     public void runProgram() {
         UserPayDetails userPayDetails = input.takeUserInput();
         PaySlip paySlip = generatePaySlip.generatePaySlip(userPayDetails);
-        output.returnPayslip(paySlip);
+        output.printPayslip(paySlip);
     }
 }

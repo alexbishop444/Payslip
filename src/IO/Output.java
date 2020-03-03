@@ -4,7 +4,7 @@ import Model.PaySlip;
 
 public class Output {
 
-    public void returnPayslip(PaySlip paySlip) {
+    public void printPayslip(PaySlip paySlip) {
         System.out.println("Your payslip has been generated:");
         System.out.println("Name: " + paySlip.getName());
         System.out.println("Pay Period: " + paySlip.getPayPeriod());
