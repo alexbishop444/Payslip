@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5089e5b-9864-4f21-93f8-0cdebd2e0eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/GrossIncomeTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/IncomeTaxTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/NetIncomeTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/SuperTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Payslip/CreatePayslip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Payslip/CreatePayslip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Payslip/IO/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Payslip/IO/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Payslip/IO/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Payslip/IO/Output.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreatePayslip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreatePayslip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/GrossIncomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/GrossIncomeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/IncomeTaxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/IncomeTaxTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/PaySlipGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/PaySlipGeneratorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IO/Input.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+            <state relative-caret-position="540">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,10 +40,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/PaySlipGeneratorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/Model/PaySlip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+            <state relative-caret-position="495">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              <folding>
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PaySlipGenerator/GeneratePaySlip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15">
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +64,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/IncomeTaxTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="27" selection-end-column="27" />
+            <state relative-caret-position="338">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,17 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/GrossIncomeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PaySlipGenerator/GeneratePaySlip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,12 +128,14 @@
         <option value="$PROJECT_DIR$/src/RunThing.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/PaySlipGenerator/PaySlipGeneration.java" />
-        <option value="$PROJECT_DIR$/Tests/PaySlipGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/CreatePayslip.java" />
         <option value="$PROJECT_DIR$/src/Model/PaySlip.java" />
         <option value="$PROJECT_DIR$/src/PaySlipGenerator/GeneratePaySlip.java" />
         <option value="$PROJECT_DIR$/src/IO/Output.java" />
         <option value="$PROJECT_DIR$/src/IO/Input.java" />
+        <option value="$PROJECT_DIR$/Tests/GrossIncomeTests.java" />
+        <option value="$PROJECT_DIR$/Tests/PaySlipGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/Tests/IncomeTaxTests.java" />
       </list>
     </option>
   </component>
@@ -180,6 +181,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="PaySlipGenerator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="payslip_updated" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payslip_updated" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -218,13 +224,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.IncomeTaxTests">
+    <configuration name="GrossIncomeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Payslip" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GrossIncomeTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncomeTaxTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Payslip" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IncomeTaxTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncomeTaxTests.createPayslipFor40000GrossSalaryIs5004" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Payslip" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IncomeTaxTests" />
+      <option name="METHOD_NAME" value="createPayslipFor40000GrossSalaryIs5004" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncomeTaxTests.createPayslipFor65000GrossSalaryIs5004" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Payslip" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IncomeTaxTests" />
+      <option name="METHOD_NAME" value="createPayslipFor65000GrossSalaryIs5004" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,21 +272,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaySlipGeneratorTest.createPayslipFor60050SalaryIncomeTaxIs422" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Payslip" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PaySlipGeneratorTest" />
-      <option name="METHOD_NAME" value="createPayslipFor60050SalaryIncomeTaxIs422" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.IncomeTaxTests" />
         <item itemvalue="JUnit.PaySlipGeneratorTest" />
-        <item itemvalue="JUnit.PaySlipGeneratorTest.createPayslipFor60050SalaryIncomeTaxIs422" />
+        <item itemvalue="JUnit.IncomeTaxTests.createPayslipFor65000GrossSalaryIs5004" />
+        <item itemvalue="JUnit.IncomeTaxTests.createPayslipFor40000GrossSalaryIs5004" />
+        <item itemvalue="JUnit.GrossIncomeTests" />
       </list>
     </recent_temporary>
   </component>
@@ -273,29 +299,49 @@
       <workItem from="1565926799800" duration="247000" />
       <workItem from="1573016837223" duration="38000" />
       <workItem from="1583104024408" duration="308000" />
-      <workItem from="1583104438971" duration="13285000" />
+      <workItem from="1583104438971" duration="20087000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaySlipGeneratorTest_createPayslipFor60050SalaryIncomeTaxIs422 - 2020.03.02 at 16h 21m 05s.xml">
-      <configuration name="PaySlipGeneratorTest.createPayslipFor60050SalaryIncomeTaxIs422" configurationId="JUnit" />
+    <history-entry file="GrossIncomeTests_createPayslipFor60050SalaryIncomeTaxIs422 - 2020.03.04 at 14h 01m 37s.xml">
+      <configuration name="GrossIncomeTests.createPayslipFor60050SalaryIncomeTaxIs422" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaySlipGeneratorTest_createPayslipFor60050SalaryIncomeTaxIs422 - 2020.03.02 at 16h 21m 28s.xml">
-      <configuration name="PaySlipGeneratorTest.createPayslipFor60050SalaryIncomeTaxIs422" configurationId="JUnit" />
+    <history-entry file="GrossIncomeTests - 2020.03.04 at 14h 18m 13s.xml">
+      <configuration name="GrossIncomeTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaySlipGeneratorTest - 2020.03.02 at 16h 22m 12s.xml">
+    <history-entry file="GrossIncomeTests - 2020.03.04 at 14h 18m 33s.xml">
+      <configuration name="GrossIncomeTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncomeTaxTests - 2020.03.04 at 14h 19m 31s.xml">
+      <configuration name="IncomeTaxTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncomeTaxTests_createPayslipFor40000GrossSalaryIs5004 - 2020.03.04 at 14h 20m 15s.xml">
+      <configuration name="IncomeTaxTests.createPayslipFor40000GrossSalaryIs5004" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncomeTaxTests - 2020.03.04 at 14h 35m 56s.xml">
+      <configuration name="IncomeTaxTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncomeTaxTests_createPayslipFor65000GrossSalaryIs5004 - 2020.03.04 at 14h 36m 22s.xml">
+      <configuration name="IncomeTaxTests.createPayslipFor65000GrossSalaryIs5004" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaySlipGeneratorTest - 2020.03.04 at 14h 36m 50s.xml">
       <configuration name="PaySlipGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncomeTaxTests - 2020.03.04 at 14h 37m 22s.xml">
+      <configuration name="IncomeTaxTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncomeTaxTests - 2020.03.04 at 14h 40m 57s.xml">
+      <configuration name="IncomeTaxTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25957000" />
+    <option name="totallyTimeSpent" value="32759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="967" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38628572" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38628572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,7 +360,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.28" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32911393" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.328" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -341,38 +387,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/PaySlip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CreatePayslip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/PaySlipGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -389,23 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/SuperTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -413,10 +414,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/IncomeTaxTests.java">
+    <entry file="file://$PROJECT_DIR$/src/IO/Output.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/PaySlip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -429,15 +458,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/GrossIncomeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/PaySlipGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PaySlipGenerator/GeneratePaySlip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state relative-caret-position="-15">
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/IncomeTaxTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -13,7 +13,7 @@ public class PaySlipGeneratorTest {
 
         long actualIncomeTax = payslip.getIncomeTax();
 
-        Assert.assertEquals(actualIncomeTax,922);
+        Assert.assertEquals(922,actualIncomeTax);
     }
     @Test
     public void createPayslipFor60050SalarySuperIs450() {
@@ -23,6 +23,6 @@ public class PaySlipGeneratorTest {
 
         long actualIncomeTax = payslip.getSuperAmount();
 
-        Assert.assertEquals(actualIncomeTax,450);
+        Assert.assertEquals(450,actualIncomeTax);
     }
 }
