@@ -18,7 +18,7 @@ public class GrossIncomeTests {
         Assert.assertEquals(5004,grossSalary,0);
     }
     @Test
-    public void createPayslipFor65000GrossSalaryIs5004() {
+    public void createPayslipFor65000GrossSalaryIs5417() {
         UserPayDetails userPayDetails = new UserPayDetails("alex","bishop",65000,9,"March 1","march 30");
         PaySlip payslip = generatePaySlip.generatePaySlip(userPayDetails);
 
@@ -27,7 +27,7 @@ public class GrossIncomeTests {
         Assert.assertEquals(5417,grossSalary,0);
     }
     @Test
-    public void createPayslipFor40000GrossSalaryIs5004() {
+    public void createPayslipFor40000GrossSalaryIs333() {
         UserPayDetails userPayDetails = new UserPayDetails("alex","bishop",40000,9,"March 1","march 30");
         PaySlip payslip = generatePaySlip.generatePaySlip(userPayDetails);
 
