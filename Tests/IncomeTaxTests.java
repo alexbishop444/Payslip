@@ -5,10 +5,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class IncomeTaxTests {
+    private GeneratePaySlip generatePaySlip = new GeneratePaySlip();
+
     @Test
     public void createPayslipFor60050IncomeTaxIs922() {
         UserPayDetails userPayDetails = new UserPayDetails("alex","bishop",60050,9,"March 1","march 30");
-        GeneratePaySlip generatePaySlip = new GeneratePaySlip();
         PaySlip payslip = generatePaySlip.generatePaySlip(userPayDetails);
 
         double incomeTax = payslip.getIncomeTax();
@@ -18,7 +19,6 @@ public class IncomeTaxTests {
     @Test
     public void createPayslipFor65000IncomeTaxIs1056() {
         UserPayDetails userPayDetails = new UserPayDetails("alex","bishop",65000,9,"March 1","march 30");
-        GeneratePaySlip generatePaySlip = new GeneratePaySlip();
         PaySlip payslip = generatePaySlip.generatePaySlip(userPayDetails);
 
         double incomeTax = payslip.getIncomeTax();
@@ -28,7 +28,6 @@ public class IncomeTaxTests {
     @Test
     public void createPayslipFor40000IncomeTaxIs379() {
         UserPayDetails userPayDetails = new UserPayDetails("alex","bishop",40000,9,"March 1","march 30");
-        GeneratePaySlip generatePaySlip = new GeneratePaySlip();
         PaySlip payslip = generatePaySlip.generatePaySlip(userPayDetails);
 
         double incomeTax = payslip.getIncomeTax();

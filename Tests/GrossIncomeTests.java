@@ -5,34 +5,34 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class GrossIncomeTests {
+
+    private GeneratePaySlip generatePaySlip = new GeneratePaySlip();
+
     @Test
     public void createPayslipFor60050GrossSalaryIs5004() {
         UserPayDetails userPayDetails = new UserPayDetails("alex","bishop",60050,9,"March 1","march 30");
-        GeneratePaySlip generatePaySlip = new GeneratePaySlip();
         PaySlip payslip = generatePaySlip.generatePaySlip(userPayDetails);
 
         double grossSalary = payslip.getGrossSalary();
 
-        Assert.assertEquals(grossSalary,5004,0);
+        Assert.assertEquals(5004,grossSalary,0);
     }
     @Test
     public void createPayslipFor65000GrossSalaryIs5004() {
         UserPayDetails userPayDetails = new UserPayDetails("alex","bishop",65000,9,"March 1","march 30");
-        GeneratePaySlip generatePaySlip = new GeneratePaySlip();
         PaySlip payslip = generatePaySlip.generatePaySlip(userPayDetails);
 
         double grossSalary = payslip.getGrossSalary();
 
-        Assert.assertEquals(grossSalary,5417,0);
+        Assert.assertEquals(5417,grossSalary,0);
     }
     @Test
     public void createPayslipFor40000GrossSalaryIs5004() {
         UserPayDetails userPayDetails = new UserPayDetails("alex","bishop",40000,9,"March 1","march 30");
-        GeneratePaySlip generatePaySlip = new GeneratePaySlip();
         PaySlip payslip = generatePaySlip.generatePaySlip(userPayDetails);
 
         double grossSalary = payslip.getGrossSalary();
 
-        Assert.assertEquals(grossSalary,3333,0);
+        Assert.assertEquals(3333,grossSalary,0);
     }
 }
